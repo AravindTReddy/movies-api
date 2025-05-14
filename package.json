@@ -1,0 +1,28 @@
+{
+  "name": "node-movie-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^5.1.0",
+    "helmet": "^7.1.0",
+    "sqlite3": "^5.1.7",
+    "express-rate-limit": "^7.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "vitest": "^1.2.2",
+    "supertest": "^6.3.4"
+  },
+  "type": "module"
+}
